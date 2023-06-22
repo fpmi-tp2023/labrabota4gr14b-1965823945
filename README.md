@@ -1,6 +1,5 @@
 # Overview
 
-
 Swift project for using dictionary and array.
 
 # Usage
@@ -27,6 +26,6 @@ The repository with `Swift` source files on dictionary and array using.
 
 Лу Вэньтао
 
-https://github.com/fpmi-tp2023/labrabota7gr14b-zadacha2-1965823945
+https://github.com/fpmi-tp2023/labrabota6gr14b-zadacha1-1965823945
 
 # labrabota6gr14b-zadacha1-1965823945
