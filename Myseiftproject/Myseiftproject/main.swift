@@ -55,3 +55,30 @@ Country.removeAll()
 print("\nCountry after all elements were deleted: ")
 for (name, capital) in Country{
 print("\(name) : \(capital)") }
+
+print("\n\nПРИМЕР РАБОТЫ С МАССИВАМИ")
+
+// MARK: создание массива Age
+var Age : [Int] = [21, 19, 20, 22]
+
+// MARK: вывод массива Age
+print("\nВывод элементов массива Age: \(Age)")
+
+// MARK: создание массива languages из строк и вывод элемента по индексу
+var languages = ["Swift", "Java", "C++"]
+
+// access element at index 0
+print("\nВывод элемента с индексом 0: \(languages[0])")
+
+// access element at index 2
+print("\nВывод элемента с индексом 2:\(languages[2])")
+
+// MARK: добавление элемента в конец массива
+print("\n Вывод массива до добавления: \(Age)")
+
+// using append method
+Age.append(24)
+print("\nВывод массива после добавления: \(Age)")
+Age.insert(32, at: 1)
+
+print("\nВывод массива после вставки элемента с индексом 1: \(Age)")
